@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RK - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          RK
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          RK@gmail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +123456789
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#Projects">Projects</a>
+          <a class="topmenu" href="#Recommendations">Recommendations</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://miro.medium.com/max/1400/1*qdAW1TjCN57h1lbuuzvchg.gif" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm RK! <img src="https://theia-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai/user/rakhikrishna/files/download/?id=2c3a3e44-334f-48a4-bd62-ba5ffc65f4ac" width="60px"/>
+          </h1>
+          <p>
+            I am doing this for the final project of Introduction to Web Development with HTML, CSS, JavaScript. Thank you
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://theia-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai/user/rakhikrishna/files/download/?id=de56769b-c89e-4d95-ae89-54c56f0825ec"/>
+            <h6>Java</h6>
+            <p>4 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="https://theia-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai/user/rakhikrishna/files/download/?id=19075baf-a569-4bc1-a178-97f9faf107d9"/>
+            <h6>CSS</h6>
+            <p>5 years experience</p>
+          </div> 
+
+          <div class="skill">
+            <img src="https://theia-1-labs-prod-misc-tools-us-east-0.labs.cognitiveclass.ai/user/rakhikrishna/files/download/?id=252cb178-4edd-4018-93d4-b3a170c6b9fb"/>
+            <h6>React</h6>
+            <p>3 years experience</p>
+          </div> 
+
+        <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Library Management System</h3>
+            <ul>
+              <li>A Library Management System(LMS)  is a programmed software to organize books in the library in a way it is easy to access by the readers and the library itself. </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Hospital Management System</h3>
+            <ul>
+              <li>A hospital management system is a cloud-based system that facilitates managing the effective functioning of the hospital. When you create HMS software,  confirm you turn all paperwork functionalities into online services such as prescriptions, insurance details, treatment charges, and more. </li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Code Editor</h3>
+            <ul>
+              <li>Code Editor helps programmers develop codes in a streamlined manner. Creating a code editor requires basic knowledge of web development, i.e., HTML, CSS, and JavaScript. Styling the editor, compiling the code, and representing the result can make it look like a complex project, but it isnt true when you start exploring the learning part behind it.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          "RK is a brilliant developer with an uncanny ability to streamline complex code. His innovative thinking and attention to detail make him a game-changer in the tech industry."
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          "I highly recommend RK for any development project. His strong problem-solving skills and knack for designing elegant solutions ensure top-notch results that exceed expectations."
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          "Working with RK was a breath of fresh air. His collaborative nature, exceptional coding skills, and commitment to delivering high-quality work make him an invaluable asset to any development team."
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation<h3>
+      <button onclick="showPopup(false))">Ok</button>
+    </div>
+  </body>
+</html>
